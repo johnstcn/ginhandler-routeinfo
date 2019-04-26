@@ -60,3 +60,11 @@ func main() {
 ```
 
 Now, `infoCat` will instead log `endpoint` as the route path `/hello/:name`.
+
+## Why
+
+From reading [this Gin PR](https://github.com/gin-gonic/gin/issues/748) and other related PRs, I figured it would be worthwhile to have a 'generic' Gin middleware for this.
+
+## Contributing
+
+Contributions are welcome and encouraged.
