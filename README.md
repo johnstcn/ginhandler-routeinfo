@@ -1,4 +1,7 @@
 # ginhandler-routeinfo
+
+[![GoDoc](https://godoc.org/github.com/johnstcn/ginhandler-routeinfo?status.svg)](https://godoc.org/github.com/johnstcn/ginhandler-routeinfo)
+
 A gin middleware to set the route path in the request context.
 
 This middleware keeps an in-memory map of the routes handled by the Gin engine, and attempts to reverse-lookup the routing path based on the handler name.
