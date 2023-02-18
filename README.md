@@ -1,3 +1,10 @@
+# No longer maintained
+
+Update to Gin >= 1.5.0 instead and use `Context.FullPath()` instead.
+
+https://pkg.go.dev/github.com/gin-gonic/gin#Context.FullPath
+
+
 # ginhandler-routeinfo
 
 [![GoDoc](https://godoc.org/github.com/johnstcn/ginhandler-routeinfo?status.svg)](https://godoc.org/github.com/johnstcn/ginhandler-routeinfo)
